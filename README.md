@@ -1,30 +1,51 @@
 # COVID-19 Analytics Dashboard
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A real-time analytics dashboard for exploring global COVID-19 trends across countries and continents.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/arais-projects-145c9507/v0-covid-19-analytics-dashboard)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/rlaQwLzRPRT)
+The dashboard helps users understand confirmed cases, deaths, recoveries, active cases, and geographic patterns using data from Johns Hopkins CSSE and World Bank open data sources.
 
-## Overview
+## What You Can Explore
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
-
-## Deployment
-
-Your project is live at:
-
-**[https://vercel.com/arais-projects-145c9507/v0-covid-19-analytics-dashboard](https://vercel.com/arais-projects-145c9507/v0-covid-19-analytics-dashboard)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/rlaQwLzRPRT](https://v0.app/chat/rlaQwLzRPRT)**
+- Global COVID-19 statistics
+- Country and continent comparisons
+- Confirmed cases, deaths, recoveries, and active cases
+- Death-rate analysis
+- Country rankings
+- Geographic data visualizations
+- Socioeconomic indicators
+- Country-specific details
+- Exportable analytics
 
 ## How It Works
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+The dashboard fetches COVID-19 data and transforms it into interactive visualizations. The global dashboard includes statistic cards, a live country ticker, continent comparisons, country rankings, and geographic charts.
+
+Users can also navigate to detailed country views, analytics pages, socioeconomic insights, and export options.
+
+## Tech Stack
+
+- Next.js 16 with App Router
+- JavaScript
+- TypeScript
+- Recharts
+- Tailwind CSS
+- Radix UI
+- shadcn/ui
+- React Hook Form
+- Zod
+- Lucide React
+- Vercel Analytics
+
+## Data Sources
+
+- Johns Hopkins CSSE COVID-19 Data
+- World Bank Open Data
+
+## Getting Started
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/Rishi07jain/covid-19-analytics-dashboard.git
+cd covid-19-analytics-dashboard
+npm install
